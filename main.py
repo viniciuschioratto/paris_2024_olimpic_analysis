@@ -1,3 +1,6 @@
-import panda as pd
+import pandas as pd
 
-data = pd
+data = pd.read_csv("dataset/medals_total.csv")
+
+print(type(data))
+print(data)
